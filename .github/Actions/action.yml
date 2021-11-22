@@ -4,4 +4,4 @@ description: Test Action and workflow
 
 runs:
   using: 'docker'
-  image: 'DockerFile'
+  image: 'Dockerfile'
