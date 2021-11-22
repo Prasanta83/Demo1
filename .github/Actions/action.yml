@@ -1,0 +1,7 @@
+name: My Test Action
+author: Prasanta
+description: Test Action and workflow
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
