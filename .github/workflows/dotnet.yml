@@ -21,9 +21,13 @@ jobs:
       run: dotnet restore
     - name: Build
       uses: ./.github/Actions
-#run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: Publish
       run: dotnet publish
+    - name: Upload WebApp1 Build Artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: WebApp1
+        path: /home/runner/work/Demo1/Demo1/ExpertConnectCodingDOJOS/bin/Debug/net5.0/publish/
       
