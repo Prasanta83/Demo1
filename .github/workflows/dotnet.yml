@@ -28,6 +28,6 @@ jobs:
     - name: Upload WebApp1 Build Artifact
       uses: actions/upload-artifact@v2
       with:
-        name: WebApp1
+        name: CodingDojos
         path: /home/runner/work/Demo1/Demo1/ExpertConnectCodingDOJOS/bin/Debug/net5.0/publish/
       
